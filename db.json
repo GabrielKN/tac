@@ -7,7 +7,7 @@
     "LastName": "Doe",
     "EmailAddress": "jd@m.com",
     "PhoneNumber": "+264817127760",
-    "NumberVerified": false,
+    "NumberVerified": false
   },
   "orders": [
     {
@@ -21,7 +21,7 @@
       "Note": "",
       "DriverId": "",
       "DriverName": "",
-      "DriverStatus": "",
+      "DriverStatus": ""
     },
     {
       "Id": "1",
@@ -34,7 +34,7 @@
       "Note": "",
       "DriverId": "",
       "DriverName": "",
-      "DriverStatus": "",
+      "DriverStatus": ""
     },
     {
       "Id": "1",
@@ -47,7 +47,7 @@
       "Note": "",
       "DriverId": "",
       "DriverName": "",
-      "DriverStatus": "",
+      "DriverStatus": ""
     }
   ],
   "products": [
