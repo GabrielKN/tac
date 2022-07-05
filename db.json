@@ -1,1 +1,82 @@
 
+{
+
+  "profile": {
+    "Id": 1,
+    "FirstName": "Joe",
+    "LastName": "Doe",
+    "EmailAddress": "jd@m.com",
+    "PhoneNumber": "+264817127760",
+    "NumberVerified": false,
+  },
+  "orders": [
+    {
+      "Id": "1",
+      "OrderNumber": "TAC0001",
+      "OrderStatus": "Pending",
+      "Timestamp": 987654562,
+      "SecurityCode": "1122",
+      "TotalProducts": "3",
+      "TotalCost": "300",
+      "Note": "",
+      "DriverId": "",
+      "DriverName": "",
+      "DriverStatus": "",
+    },
+    {
+      "Id": "1",
+      "OrderNumber": "TAC0002",
+      "OrderStatus": "Pending",
+      "Timestamp": 987654567,
+      "SecurityCode": "1455",
+      "TotalProducts": "5",
+      "TotalCost": "500",
+      "Note": "",
+      "DriverId": "",
+      "DriverName": "",
+      "DriverStatus": "",
+    },
+    {
+      "Id": "1",
+      "OrderNumber": "TAC0003",
+      "OrderStatus": "Pending",
+      "Timestamp": 987654564,
+      "SecurityCode": "1231",
+      "TotalProducts": "1",
+      "TotalCost": "50",
+      "Note": "",
+      "DriverId": "",
+      "DriverName": "",
+      "DriverStatus": "",
+    }
+  ],
+  "products": [
+    {
+      "Id": "11",
+      "Name": "Coca-cola",
+      "Size": "2L",
+      "Quantity": "2",
+      "Price": 18.00,
+      "AvailabilityStatus": "Pending",
+      "Description": ""
+    },
+    {
+      "Id": "12",
+      "Name": "Bread",
+      "Size": "loaf",
+      "Quantity": "1",
+      "Price": 11.00,
+      "AvailabilityStatus": "Pending",
+      "Description": "Brown"
+    },
+    {
+      "Id": "13",
+      "Name": "Chips portion",
+      "Size": "",
+      "Quantity": "1",
+      "Price": 25.00,
+      "AvailabilityStatus": "Pending",
+      "Description": ""
+    }
+   ]
+}
