@@ -20,7 +20,36 @@
             "Note": "",
             "DriverId": "",
             "DriverName": "",
-            "DriverStatus": ""
+            "DriverStatus": "",
+            "Products": [
+                {
+                    "Id": "11",
+                    "Name": "Coca-cola",
+                    "Size": "2L",
+                    "Quantity": "2",
+                    "Price": 18.00,
+                    "AvailabilityStatus": "Pending",
+                    "Description": ""
+                },
+                {
+                    "Id": "12",
+                    "Name": "Bread",
+                    "Size": "loaf",
+                    "Quantity": "1",
+                    "Price": 11.00,
+                    "AvailabilityStatus": "Pending",
+                    "Description": "Brown"
+                },
+                {
+                    "Id": "13",
+                    "Name": "Chips portion",
+                    "Size": "",
+                    "Quantity": "1",
+                    "Price": 25.00,
+                    "AvailabilityStatus": "Pending",
+                    "Description": ""
+                }
+            ]
         },
         {
             "Id": "22",
@@ -33,7 +62,36 @@
             "Note": "",
             "DriverId": "",
             "DriverName": "",
-            "DriverStatus": ""
+            "DriverStatus": "",
+            "Products": [
+                {
+                    "Id": "14",
+                    "Name": "Toilet paper",
+                    "Size": "12 pack",
+                    "Quantity": "1",
+                    "Price": 80.00,
+                    "AvailabilityStatus": "Pending",
+                    "Description": ""
+                },
+                {
+                    "Id": "15",
+                    "Name": "Olive Oil",
+                    "Size": "350ml",
+                    "Quantity": "1",
+                    "Price": 70.00,
+                    "AvailabilityStatus": "Pending",
+                    "Description": "Extra virgin"
+                },
+                {
+                    "Id": "16",
+                    "Name": "Simba chips",
+                    "Size": "Large",
+                    "Quantity": "4",
+                    "Price": 68.00,
+                    "AvailabilityStatus": "Pending",
+                    "Description": "Chutney"
+                }
+            ]
         },
         {
             "Id": "23",
@@ -46,36 +104,36 @@
             "Note": "",
             "DriverId": "",
             "DriverName": "",
-            "DriverStatus": ""
-        }
-    ],
-    "products": [
-        {
-            "Id": "11",
-            "Name": "Coca-cola",
-            "Size": "2L",
-            "Quantity": "2",
-            "Price": 18.00,
-            "AvailabilityStatus": "Pending",
-            "Description": ""
-        },
-        {
-            "Id": "12",
-            "Name": "Bread",
-            "Size": "loaf",
-            "Quantity": "1",
-            "Price": 11.00,
-            "AvailabilityStatus": "Pending",
-            "Description": "Brown"
-        },
-        {
-            "Id": "13",
-            "Name": "Chips portion",
-            "Size": "",
-            "Quantity": "1",
-            "Price": 25.00,
-            "AvailabilityStatus": "Pending",
-            "Description": ""
+            "DriverStatus": "",
+            "Products": [
+                {
+                    "Id": "17",
+                    "Name": "Washing powder",
+                    "Size": "500g",
+                    "Quantity": "1",
+                    "Price": 32.00,
+                    "AvailabilityStatus": "Pending",
+                    "Description": "Reef"
+                },
+                {
+                    "Id": "18",
+                    "Name": "Dih washing soap",
+                    "Size": "350ml",
+                    "Quantity": "1",
+                    "Price": 25.00,
+                    "AvailabilityStatus": "Pending",
+                    "Description": "Sunlight"
+                },
+                {
+                    "Id": "19",
+                    "Name": "Listering Mouth wash",
+                    "Size": "150ml",
+                    "Quantity": "1",
+                    "Price": 20.00,
+                    "AvailabilityStatus": "Pending",
+                    "Description": "Cool Mint"
+                }
+            ]
         }
     ]
 }
