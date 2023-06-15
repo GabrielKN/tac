@@ -9,140 +9,227 @@
         "Img": "https://st2.depositphotos.com/1006472/6750/i/600/depositphotos_67505355-stock-photo-anonymous-unrecognizable-man-with-digital.jpg"
     },
     "orders": [
+    {
+      "id": 10,
+      "orderNumber": "TAC0010",
+      "orderedAt": "2023-05-31T16:01:07.602087",
+      "completedAt": null,
+      "deliveryType": {
+        "id": 2,
+        "name": "Scheduled",
+        "description": "Scheduled delivery",
+        "allowsNextDayDelivery": false,
+        "price": 14,
+        "deliverySlots": [],
+        "deliveryRestriction": null
+      },
+      "customerAddress": {
+        "id": 3,
+        "name": "Home 222",
+        "isComplex": true,
+        "complexName": "Mission Village",
+        "unitNumber": "11",
+        "houseNumber": 15,
+        "street": "Quenta",
+        "neighborhood": "Ludwigsdorf",
+        "city": "Windhoek",
+        "latitude": -22.55941,
+        "longitude": 17.08323,
+        "isActive": true
+      },
+      "customer": {
+        "id": "f6205668-68a2-42db-864a-5af560a1a833",
+        "firstName": "Idriss",
+        "lastName": "Simao",
+        "phoneNumber": "+264814545458"
+      },
+      "inStoreAssistant": null,
+      "driver": null,
+      "dispatch": {
+        "id": "9b750088-6f3f-4ac1-b269-3733dec7adfe",
+        "firstName": "Dispatch",
+        "lastName": "One",
+        "phoneNumber": "+264814758583"
+      },
+      "status": "Declined",
+      "city": "Windhoek",
+      "weekDay": "Wednesday",
+      "customerCode": "24500",
+      "driverCode": "24500",
+      "deliveryFee": 40,
+      "deliveryDistance": 10,
+      "creditAmount": 0,
+      "payableToStore": 100,
+      "subTotal": 142,
+      "total": 152,
+      "priceChange": null,
+      "paymentMethod": null,
+      "paymentReference": "PayToday",
+      "store": {
+        "id": 6,
+        "name": "dolor etw",
+        "imgUrl": "example.com/image.jpeg",
+        "phoneNumber": "+264852585",
+        "franchiseId": 2,
+        "operatingHours": null,
+        "address": null
+      },
+      "updateTimes": [],
+      "orderItems": [
         {
-            "Id": "21",
-            "OrderNumber": "TAC0001",
-            "OrderStatus": "Pending",
-            "Timestamp": "987654562",
-            "SecurityCode": "1122",
-            "TotalProducts": "3",
-            "TotalCost": "300",
-            "Note": "",
-            "DriverId": "",
-            "DriverName": "",
-            "DriverStatus": "",
-            "Products": [
-                {
-                    "Id": "11",
-                    "Name": "Coca-cola",
-                    "Size": "2L",
-                    "Quantity": "2",
-                    "Price": 18.00,
-                    "AvailabilityStatus": "Pending",
-                    "Description": "",
-                    "OrderId": "21"
-                },
-                {
-                    "Id": "12",
-                    "Name": "Bread",
-                    "Size": "loaf",
-                    "Quantity": "1",
-                    "Price": 11.00,
-                    "AvailabilityStatus": "Pending",
-                    "Description": "Brown",
-                    "OrderId": "21"
-                },
-                {
-                    "Id": "13",
-                    "Name": "Chips portion",
-                    "Size": "",
-                    "Quantity": "1",
-                    "Price": 25.00,
-                    "AvailabilityStatus": "Pending",
-                    "Description": "",
-                    "OrderId": "21"
-                }
-            ]
-        },
-        {
-            "Id": "22",
-            "OrderNumber": "TAC0002",
-            "OrderStatus": "Pending",
-            "Timestamp": "987654567",
-            "SecurityCode": "1455",
-            "TotalProducts": "5",
-            "TotalCost": "500",
-            "Note": "",
-            "DriverId": "",
-            "DriverName": "",
-            "DriverStatus": "",
-            "Products": [
-                {
-                    "Id": "14",
-                    "Name": "Toilet paper",
-                    "Size": "12 pack",
-                    "Quantity": "1",
-                    "Price": 80.00,
-                    "AvailabilityStatus": "Pending",
-                    "Description": "",
-                    "OrderId": "22"
-                },
-                {
-                    "Id": "15",
-                    "Name": "Olive Oil",
-                    "Size": "350ml",
-                    "Quantity": "1",
-                    "Price": 70.00,
-                    "AvailabilityStatus": "Pending",
-                    "Description": "Extra virgin",
-                    "OrderId": "22"
-                },
-                {
-                    "Id": "16",
-                    "Name": "Simba chips",
-                    "Size": "Large",
-                    "Quantity": "4",
-                    "Price": 68.00,
-                    "AvailabilityStatus": "Pending",
-                    "Description": "Chutney",
-                    "OrderId": "22"
-                }
-            ]
-        },
-        {
-            "Id": "23",
-            "OrderNumber": "TAC0003",
-            "OrderStatus": "Pending",
-            "Timestamp": "987654564",
-            "SecurityCode": "1231",
-            "TotalProducts": "1",
-            "TotalCost": "50",
-            "Note": "",
-            "DriverId": "",
-            "DriverName": "",
-            "DriverStatus": "",
-            "Products": [
-                {
-                    "Id": "17",
-                    "Name": "Washing powder",
-                    "Size": "500g",
-                    "Quantity": "1",
-                    "Price": 32.00,
-                    "AvailabilityStatus": "Pending",
-                    "Description": "Reef",
-                    "OrderId": "23"
-                },
-                {
-                    "Id": "18",
-                    "Name": "Dih washing soap",
-                    "Size": "350ml",
-                    "Quantity": "1",
-                    "Price": 25.00,
-                    "AvailabilityStatus": "Pending",
-                    "Description": "Sunlight",
-                    "OrderId": "23"
-                },
-                {
-                    "Id": "19",
-                    "Name": "Listering Mouth wash",
-                    "Size": "150ml",
-                    "Quantity": "1",
-                    "Price": 20.00,
-                    "AvailabilityStatus": "Pending",
-                    "Description": "Cool Mint",
-                    "OrderId": "23"
-                }
-            ]
+          "id": 6,
+          "quantity": 1,
+          "unitPrice": 10,
+          "lineTotal": 10,
+          "productVariation": {
+            "id": 24,
+            "name": "Style and comfort",
+            "option": "Blue",
+            "price": 12.99,
+            "salePrice": 10.99,
+            "onSaleFrom": "2023-06-08T00:00:00",
+            "onSaleTo": "2023-06-14T00:00:00",
+            "inStock": true,
+            "imgUrl": "https://example.com/images/stylish-coffee-mug-blue.jpg",
+            "productDimensions": null
+          }
         }
-    ]
+      ],
+      "flaggedItems": []
+    },
+    {
+      "id": 11,
+      "orderNumber": "TAC0011",
+      "orderedAt": "2023-05-31T16:12:21.690288",
+      "completedAt": null,
+      "deliveryType": {
+        "id": 2,
+        "name": "Scheduled",
+        "description": "Scheduled delivery",
+        "allowsNextDayDelivery": false,
+        "price": 14,
+        "deliverySlots": [],
+        "deliveryRestriction": null
+      },
+      "customerAddress": {
+        "id": 3,
+        "name": "Home 222",
+        "isComplex": true,
+        "complexName": "Mission Village",
+        "unitNumber": "11",
+        "houseNumber": 15,
+        "street": "Quenta",
+        "neighborhood": "Ludwigsdorf",
+        "city": "Windhoek",
+        "latitude": -22.55941,
+        "longitude": 17.08323,
+        "isActive": true
+      },
+      "customer": {
+        "id": "f6205668-68a2-42db-864a-5af560a1a833",
+        "firstName": "Idriss",
+        "lastName": "Simao",
+        "phoneNumber": "+264814545458"
+      },
+      "inStoreAssistant": {
+        "id": "4d16631f-9e7f-479e-ba4b-99ba7e1c7760",
+        "firstName": "In Store",
+        "lastName": "One",
+        "phoneNumber": "+264814548584"
+      },
+      "driver": {
+        "id": "5e96cbca-52b5-4888-8f94-baf051142b68",
+        "firstName": "Driver",
+        "lastName": "One",
+        "phoneNumber": "+264814758545"
+      },
+      "dispatch": {
+        "id": "9b750088-6f3f-4ac1-b269-3733dec7adfe",
+        "firstName": "Dispatch",
+        "lastName": "One",
+        "phoneNumber": "+264814758583"
+      },
+      "status": "Completed",
+      "city": "Windhoek",
+      "weekDay": "Wednesday",
+      "customerCode": "49027",
+      "driverCode": "52775",
+      "deliveryFee": 40,
+      "deliveryDistance": 10,
+      "creditAmount": 0,
+      "payableToStore": 100,
+      "subTotal": 142,
+      "total": 152,
+      "priceChange": null,
+      "paymentMethod": null,
+      "paymentReference": "PayToday",
+      "store": {
+        "id": 6,
+        "name": "dolor etw",
+        "imgUrl": "example.com/image.jpeg",
+        "phoneNumber": "+264852585",
+        "franchiseId": 2,
+        "operatingHours": null,
+        "address": null
+      },
+      "updateTimes": [
+        {
+          "id": 5,
+          "status": "Processing",
+          "updatedAt": "2023-05-31T16:46:14.93095"
+        },
+        {
+          "id": 6,
+          "status": "Checking",
+          "updatedAt": "2023-05-31T16:47:30.999534"
+        },
+        {
+          "id": 7,
+          "status": "InTheTrolley",
+          "updatedAt": "2023-05-31T16:47:53.449467"
+        },
+        {
+          "id": 8,
+          "status": "ReadyForPickUp",
+          "updatedAt": "2023-05-31T16:48:21.544036"
+        },
+        {
+          "id": 9,
+          "status": "OnTheWay",
+          "updatedAt": "2023-05-31T16:53:13.488568"
+        },
+        {
+          "id": 10,
+          "status": "Arrived",
+          "updatedAt": "2023-05-31T16:54:53.547278"
+        },
+        {
+          "id": 11,
+          "status": "Completed",
+          "updatedAt": "2023-05-31T16:56:19.237999"
+        }
+      ],
+      "orderItems": [
+        {
+          "id": 7,
+          "quantity": 1,
+          "unitPrice": 10,
+          "lineTotal": 10,
+          "productVariation": {
+            "id": 24,
+            "name": "Style and comfort",
+            "option": "Blue",
+            "price": 12.99,
+            "salePrice": 10.99,
+            "onSaleFrom": "2023-06-08T00:00:00",
+            "onSaleTo": "2023-06-14T00:00:00",
+            "inStock": true,
+            "imgUrl": "https://example.com/images/stylish-coffee-mug-blue.jpg",
+            "productDimensions": null
+          }
+        }
+      ],
+      "flaggedItems": []
+    }
+  ]
 }
